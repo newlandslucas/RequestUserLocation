@@ -14,8 +14,8 @@ struct ContentView: View {
         Group {
             if locationManager.userLocation == nil {
                 LocationRequestView()
-            } else {
-                Text("Hello, World!")
+            } else if let location = locationManager.userLocation {
+                Text("\(location)")
                     .padding()
             }
         }
