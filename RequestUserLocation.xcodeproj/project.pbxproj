@@ -12,6 +12,7 @@
 		94098B2B2807429E00A8E2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94098B2A2807429E00A8E2EE /* Assets.xcassets */; };
 		94098B2E2807429E00A8E2EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94098B2D2807429E00A8E2EE /* Preview Assets.xcassets */; };
 		94098B35280742D500A8E2EE /* LocationRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94098B34280742D500A8E2EE /* LocationRequestView.swift */; };
+		94098B372807433400A8E2EE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94098B362807433400A8E2EE /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		94098B2A2807429E00A8E2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94098B2D2807429E00A8E2EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94098B34280742D500A8E2EE /* LocationRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestView.swift; sourceTree = "<group>"; };
+		94098B362807433400A8E2EE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				94098B2A2807429E00A8E2EE /* Assets.xcassets */,
 				94098B2C2807429E00A8E2EE /* Preview Content */,
 				94098B34280742D500A8E2EE /* LocationRequestView.swift */,
+				94098B362807433400A8E2EE /* LocationManager.swift */,
 			);
 			path = RequestUserLocation;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94098B372807433400A8E2EE /* LocationManager.swift in Sources */,
 				94098B292807429D00A8E2EE /* ContentView.swift in Sources */,
 				94098B35280742D500A8E2EE /* LocationRequestView.swift in Sources */,
 				94098B272807429D00A8E2EE /* RequestUserLocationApp.swift in Sources */,
